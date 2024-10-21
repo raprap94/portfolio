@@ -1,0 +1,31 @@
+.footer {
+  background-color: #1e1e1e; /* Adjust the footer background color */
+  color: #ffffff; /* Text color */
+  padding: 20px; /* Padding for the footer */
+  text-align: center; /* Center the text */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.social-links {
+  display: flex; /* Use flexbox to layout the buttons */
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 15px; /* Space between buttons */
+  margin-top: 10px; /* Add some spacing above the buttons */
+}
+
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #4caf50; /* Green link color */
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #81c784; /* Lighter green on hover */
+  }
+  
